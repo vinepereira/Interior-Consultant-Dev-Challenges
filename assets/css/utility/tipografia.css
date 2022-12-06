@@ -1,0 +1,44 @@
+:root {
+    --font-title-1: 500 48px/1.27 'Lora', serif;
+    --font-title-2: 700 24px/1.25 'Lora', serif;
+    --font-parag-1: 400 20px/1.2 'Montserrat', sans-serif;
+    --font-link-1: 700 18px/1.16 'Montserrat', sans-serif;
+    --font-name: 500 14px/1.2 'Montserrat', sans-serif;
+    --font-span: 500 12px/1.2 'Montserrat', sans-serif;
+    --font-button: 200 14px/1.1 'Crimson Pro', serif;
+}
+
+.font-title-1 {
+    font: var(--font-title-1);
+}
+.font-title-2 {
+    font: var(--font-title-2);
+}
+.font-parag-1 {
+    font: var(--font-parag-1);
+}
+.font-link-1 {
+    font: var(--font-link-1);
+}
+.font-name {
+    font: var(--font-name);
+}
+.font-span {
+    font: var(--font-span);
+}
+.font-button {
+    font: var(--font-button);
+}
+
+h1 {
+    font: var(--font-title-1);
+}
+
+h2 {
+    font: var(--font-title-2);
+}
+
+p {
+    font: var(--font-parag-1);
+}
+

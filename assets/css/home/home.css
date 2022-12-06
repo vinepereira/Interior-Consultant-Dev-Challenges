@@ -1,0 +1,151 @@
+/* HEADER */
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.list-menu {
+    justify-self: end;
+    display: flex;
+    gap: 40px;
+}
+
+
+ul.font-link-1 {
+    font-weight: 500;
+}
+
+@media (min-width:650px) {
+    .menu-mobile,
+    .list-menu-mobile {
+        display: none;
+    }
+}
+
+@media (max-width:650px) {
+    .list-menu {
+        display: none;
+    }
+
+    .menu-mobile {
+        justify-self: end;
+    }
+    .menu-mobile i {
+        justify-self: end;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .list-menu-mobile {
+        display: grid;
+        justify-items: center;
+        gap: 40px;
+        /* display: none; */
+    }
+    
+
+}
+
+/* main */
+main .conteudo {
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 40px;
+}
+
+.conteudo-descricao {
+    display: grid;
+    gap: 20px;
+}
+
+.conteudo-descricao p {
+    max-width: 20ch;
+}
+
+.conteudo-descricao a span {
+    font-size: 0.8rem;
+    transition: .3s;
+}
+.conteudo-descricao a:hover span {
+    margin-left: 4px;
+}
+
+.conteudo-imagem {
+    position: relative;
+}
+
+.conteudo-card {
+    max-width: 410px;
+    max-height: 189px;
+    background-color: var(--cor-bg);
+    box-shadow: 0px 2px 3px 0px #0000006b;
+    padding: 20px;
+    position: absolute;
+    right: 25px;
+    bottom: -100px;
+    transition: .3s;
+}
+
+.conteudo-card:hover {
+    transform: scale(1.05);
+}
+
+.conteudo-card-perfil {
+    max-width: max-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo-card-perfil img {
+    border-radius: 50%;
+    width: 60px;
+    height: 100%;
+    object-fit: contain;
+}
+
+.conteudo-card > h2 {
+    max-width: 18ch;
+}
+
+@media (max-width:800px) {
+    main .conteudo {
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:600px) {
+    .conteudo-descricao h1 {
+        font-size: 2.25rem;
+    }
+    .conteudo-descricao p {
+        font-size: 1rem;
+    }
+    .conteudo-descricao a {
+        font-size: 1rem;
+    }
+    .conteudo-card > h2 {
+        font-size: 1rem;
+    }
+}
+
+
+footer {
+    margin-top: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: underline;
+}

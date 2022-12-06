@@ -1,0 +1,17 @@
+:root {
+    --cor-bg: #181719;
+    --cor-0: #FFFFFF;
+    --cor-1:#A9A9A9;
+}
+
+.cor-bg {
+    background-color: var(--cor-bg);
+}
+
+.cor-0 {
+    color: var(--cor-0);
+}
+
+.cor-1 {
+    color: var(--cor-1);
+}

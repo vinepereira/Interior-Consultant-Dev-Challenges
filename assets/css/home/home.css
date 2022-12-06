@@ -124,25 +124,10 @@ main .conteudo {
     }
 }
 
-@media (max-width:600px) {
-    .conteudo-descricao h1 {
-        font-size: 2.25rem;
-    }
-    .conteudo-descricao p {
-        font-size: 1rem;
-    }
-    .conteudo-descricao a {
-        font-size: 1rem;
-    }
-    .conteudo-card > h2 {
-        font-size: 1rem;
-    }
-}
-
-
 footer {
     margin-top: 200px;
     margin-bottom: 20px;
+    padding: 0 20px;
     text-align: center;
 }
 
